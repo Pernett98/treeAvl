@@ -40,6 +40,19 @@ public interface INode<Type extends Comparable> {
 	 * Sets the data of the node
 	 * @param data Object
 	 */
-	public void setData(Type data);		
+	public void setData(Type data);
+	
+	
+	/**
+	 * Returns the balance factor of the node
+	 * @return int factor balance
+	 */
+	public int getBalanceFactor();
+	
+	/**
+	 * Sets the balance factor of the node
+	 * @param BF int
+	 */
+	public void setBalanceFactor(int BF);
 		
 }

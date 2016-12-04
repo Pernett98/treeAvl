@@ -8,8 +8,10 @@ public interface ITreeAvl <NodeType extends INode> extends ITree<NodeType> {
 	
 	public NodeType simpleLeftRotation(NodeType p ,NodeType q);
 	
-	public NodeType doubleRightRotation(NodeType p, NodeType q, NodeType r);
+	public NodeType doubleRightRotation(NodeType p, NodeType q);
 	
-	public NodeType doubleLeftRotation(NodeType p, NodeType q, NodeType r);
+	public NodeType doubleLeftRotation(NodeType p, NodeType q);
+	
+	public void calculateBalanceFactor();
 	
 }

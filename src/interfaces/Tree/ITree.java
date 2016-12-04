@@ -14,4 +14,8 @@ public interface ITree<NodeType extends INode> {
 	
 	public String routeInOrder();
 	
+	public String routePreOrder();
+	
+	public String routePosOrder();
+	
 }
